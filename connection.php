@@ -6,7 +6,7 @@
     $connect=mysqli_connect($host,$user,$password,$database);
     if($connect)
     {
-    echo"connected";
+        $a=1;
     }
     else
     {
